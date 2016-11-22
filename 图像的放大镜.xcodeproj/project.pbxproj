@@ -15,6 +15,7 @@
 		162C8F2A1DDD47FB00B4192B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 162C8F281DDD47FB00B4192B /* LaunchScreen.storyboard */; };
 		162C8F351DDD47FB00B4192B /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 162C8F341DDD47FB00B4192B /* ______Tests.m */; };
 		162C8F401DDD47FB00B4192B /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 162C8F3F1DDD47FB00B4192B /* ______UITests.m */; };
+		162C8F4F1DDD485D00B4192B /* ADOMaskImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 162C8F4E1DDD485D00B4192B /* ADOMaskImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		162C8F3B1DDD47FB00B4192B /* 图像的放大镜UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "图像的放大镜UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		162C8F3F1DDD47FB00B4192B /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		162C8F411DDD47FB00B4192B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		162C8F4D1DDD485D00B4192B /* ADOMaskImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADOMaskImageView.h; sourceTree = "<group>"; };
+		162C8F4E1DDD485D00B4192B /* ADOMaskImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADOMaskImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				162C8F1E1DDD47FB00B4192B /* AppDelegate.m */,
 				162C8F201DDD47FB00B4192B /* ViewController.h */,
 				162C8F211DDD47FB00B4192B /* ViewController.m */,
+				162C8F4D1DDD485D00B4192B /* ADOMaskImageView.h */,
+				162C8F4E1DDD485D00B4192B /* ADOMaskImageView.m */,
 				162C8F231DDD47FB00B4192B /* Main.storyboard */,
 				162C8F261DDD47FB00B4192B /* Assets.xcassets */,
 				162C8F281DDD47FB00B4192B /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 				162C8F221DDD47FB00B4192B /* ViewController.m in Sources */,
 				162C8F1F1DDD47FB00B4192B /* AppDelegate.m in Sources */,
 				162C8F1C1DDD47FB00B4192B /* main.m in Sources */,
+				162C8F4F1DDD485D00B4192B /* ADOMaskImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
